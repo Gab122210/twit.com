@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 1px  black;
+    width: 37%;
+    height: 555px;
+    margin: auto;
+    margin-top: 55px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.head {
+    border-bottom: 1px solid rgb(164, 162, 162);
+    width: 100%;
+    height: 55px;
+}
+
+.xcom {
+    border: 1px  black;
+    width: 45%;
+    height: 75px;
+    margin-left: 135px;
+    margin-top: 28px;
+}
+
+.table {
+    margin-top: 14px;
+}
+
+.table, tr {
+    border: 1px  black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+}
+
+.Arow:hover {
+    background-color: aliceblue;
+}
+
+ 
+.Brow:hover {
+    background-color: aliceblue;
+}
+
+.account {
+    font-size:28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Times New Roman', sans-serif;
+    font-weight: 400;
+    color: rgb(49, 48, 48);
+    text-align: center;
+}
+
+.xcon {
+    font-size: 15px;
+    text-align: center;
+    font-family:  Verdana, Georgia, 'Times New Roman', Times, serif;
+    font-weight: ;
+    color: ;
+}
+
+.princegeorge {
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    position: relative;
+    top: 15px;
+    left: 35px;
+}
+
+.prince {
+    position: relative;
+    left: 30px;
+    bottom: 19px;
+    left: 73px;
+    font-family:  Verdana, Georgia, 'Times New Roman', Times, serif;
+    font-size: 13.5px;
+    font-weight: ;
+    line-height: 15px;
+}
+
+.George {
+    font-size: 11.5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 76, 76);
+}
+
+hr {
+    width: 85%;
+    margin-left: 38px;
+}
+
+.search {
+    width: 20px;
+    margin-left: 37px;
+    margin-top: 17px;
+}
+
+.signup {
+    position: relative;
+    left: 70px;
+    font-family:   Verdana, Georgia, 'Times New Roman', Times, serif;
+    color: rgb(78, 76, 76);
+    font-size: 14px;
+    font-weight:500;
+    bottom: 23px;
+}
+
+.user2 {
+    width: 20px;
+    height: 20px;
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 38px;
+}
+
+.anotheracct {
+    position: relative;
+    left: 73px;
+    bottom: 11.5px;
+    font-family:  Verdana, Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.privacy {
+    border: 1px  black;
+    width: 37%;
+    height: 150px;
+    margin: auto;
+}
+
+.policy {
+    border: 1px  black;
+    width: 50%;
+    height: 75px;
+    margin-left: 245px;
+    position: relative;
+    bottom: 44px;
+}
+
+.help {
+    font-size: 11.8px;
+    color: rgb(113, 112, 112);
+    font-family: Verdana, Georgia, 'Times New Roman', Times, serif;
+    font-weight: ;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.language{
+    border: 1px  black;
+    width: 30%;
+    height: 40px;
+}
+
+
+form {
+    border:1px  black;
+}
+
+#language {
+    border: none;
+}
+
+#language:focus {
+    outline: none;
+}

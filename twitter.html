@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-con" href="../Twitter/svgexport-2.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="twitter.css">
+    <title>twitter</title>
+    <style>
+
+        body {
+           background-color: black;
+        }
+
+        .container {
+            border: 1px black;
+            width: 100%;
+            height: 696px;
+            display: flex;
+        }
+
+        .firstchild {
+            border: 1px  black;
+            width: 50%;
+            height: 696px;
+
+        }
+
+       
+
+        .mini1 {
+            border: 1px  black;
+            width: 100%;
+            height: 396px;
+            margin-top: 150px;
+        }
+
+        .milo {
+            border: 1px  black;
+            width: 298px;
+            height: 270px;
+            margin: 59px 0px 0px 178px;
+        }
+
+
+        .secondchild {
+            border: 2px  red;
+            width: 50%;
+            height: 696px;
+        }
+
+        .happeningnow {
+            border: 1px  blue;
+            width: 100%;
+            height: 75px;
+            margin-top: 90px;
+        }
+
+        .jointoday {
+            border: 1px  black;
+            width: 100%;
+            height: 45px;
+            margin-top: 45px;
+        }
+
+        .signin {
+            border: 1px  black;
+            width: 50%;
+            height: 46px;
+            margin-top: 33px;
+        }
+
+        .signin2 {
+            border: 1px  black;
+            width: 50%;
+            height: 46px;
+            margin-top: 9px;
+        }
+
+        .signin3 {
+        border: 1px black;
+        width:50%;
+        height: 46px;
+      }
+        
+      .longline {
+        border-bottom:  1px solid rgb(63, 63, 63);
+        width: 315px;
+        padding: 0%;
+        height: 0;
+        position: relative;
+        top: 20px;
+      }
+
+      .or {
+        border: 1px  black;
+        border-radius: 50px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        background-color: black;
+        color: #c8c8c9;
+        font-family: Verdana, Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        left: 137px;
+        top: -27px;
+        padding: 2px;
+      }
+
+       .now {
+        font-size: 64px;
+        font-family: Verdana, Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        color: #E7E9EA;
+        margin-bottom: 10px;
+        margin-left: 70px;
+        position: relative;
+        bottom: 8px;
+       } 
+        
+       .twiiterimg {
+        width: 570px; 
+        margin-left: -137px; 
+        margin-top: -32px;
+       }
+        
+       .g {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+            font-size: 78px
+       }
+       
+       .today {
+        font-size:37px;
+        font-family:'segoe ui',Arial, Helvetica, sans-serif ;
+        font-weight:700;
+        color: #E7E9EA;
+        margin-left: 70px;
+       }
+       
+       /*.smalx {
+        border: 2px solid black;
+        width: 40px;
+        height: 37px;
+       }*/
+
+       .smalltwitter {
+        width:90px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        display: none;
+       
+       }
+
+       .insperson {
+        line-height: 18px;
+        text-align: left;
+        font-family: Verdana, Georgia, 'Times New Roman', Times, serif;;
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+        font-size: 11.5px;
+        color: #393D40;
+       }
+
+       .person {
+        position: relative;
+        bottom: 10px;
+        left: 24px;
+        font-size: 10.5px;
+        color: #5A5E63;
+       }
+
+
+       .picsbox {
+        width: 23px;
+        height: 23px;
+        border-radius: 150px;
+        position: relative;
+        top: 14px;
+        right: 8px;
+       }
+
+       .search {
+        width: 20px;
+        position: relative;
+        left: 100px;
+        bottom: 10px;
+       }
+
+      .noww {
+        position: relative;
+      }
+
+        .signin4 {
+            border: 1px  black;
+            width: 50%;
+            height: 46px;
+        }
+
+        .account {
+            font-size: 17px;
+            font-family:system-ui,'-apple-system, BlinkMacSystemFont', 'Segoe UI', 'Roboto, Oxygen, Ubuntu, Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif ;
+            font-weight: 700;
+            line-height: 20px;
+            color: #E7E9EA;
+            position: relative;
+            top: 40px;
+        }
+
+        .logninnn {
+            justify-content: center;
+            border: 1px solid rgb(107, 106, 106);
+            background-color: black;
+            width:300px;
+            height: 40px;
+            line-height: ;
+            cursor: pointer;
+            border-radius: 50px;
+            margin-top: 43px;
+        }
+
+        .singnhere {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Times New Roman', sans-serif;
+            color: #1d9bf0;
+            text-align: center;
+            font-size:19px;
+            font-weight: 700;
+        }
+
+        .agree {
+            font-size: 12px;
+            font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Times New Roman', sans-serif;
+            font-weight: 400;
+            color: #71767b;
+            margin-top: 0px;
+
+        }
+
+        .none:focus {
+            color:#1d9bf0;
+        }
+     
+        .none {
+            color: #1d9bf0;
+        }
+
+        .termservice {
+            color: #0359e1;
+            cursor: pointer;
+        }
+
+        .Creating {
+            font-size: 15px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .Creating:focus {
+            color: white;
+        }
+        .AppleP {
+            color: #0F1419;
+            font-size: 17px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Times New Roman', sans-serif;
+            font-weight: 700;
+            position: relative;
+            bottom: 4px;
+        }
+       
+        .signin, .signin2, .signin3, .signin4, .agree, .account, .logninnn {
+            margin-left: 69px;
+        }
+
+        .footer {
+            border: 3px white;
+            width: 100%;
+            height: 72px;
+            text-align: center;
+            vertical-align: baseline;
+            font-weight: 400;
+            line-height: 25px;
+            font-size: 14px;
+        }
+
+        .Adsinfo {
+           text-align: center;
+           text-decoration: none;
+           color:#71767b;
+           
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS','Times New Roman', sans-serif;
+          
+        }
+
+        .Adsinfo {
+           
+        }
+
+        .adsinforma1, .adsinforma2, .adsinforma3, .adsinforma4, .adsinforma5, .adsinforma6, .adsinforma7, .adsinforma8, .adsinforma9, .adsinforma10, .adsinforma11, .adsinforma12, .adsinforma13, .adsinforma14, .adsinforma15, .adsinforma16, .adsinforma17, .adsinforma18 {
+            padding: 7px;
+        }
+
+        
+        .adsinforma1, .adsinforma2, .adsinforma3, .adsinforma4, .adsinforma5, .adsinforma6, .adsinforma7, .adsinforma8, .adsinforma9, .adsinforma10, .adsinforma11, .adsinforma12, .adsinforma13, .adsinforma14, .adsinforma15, .adsinforma16, .adsinforma17, .adsinforma18:hover {
+            text-decoration: ;
+        }
+
+
+          
+
+        @media only screen and (max-width:620px){                          
+            /* for mobile phone: */
+        .firstchild {
+             display:none;
+         }
+         .secondchild {
+            width: 100%;
+            height: 820px;
+         }
+
+         .smalltwitter {
+            display: block;
+         }
+
+         .signin {
+            width: 66%;
+            margin-top: 36px;
+            margin-left: 25px;
+         }
+         .signin2 {
+            width: 66%;
+            margin-left: 25px;
+         }
+
+         .jointoday{
+            margin-top: 40px;
+         }
+         .happeningnow {
+                height: 165px;
+                margin-top: 85px;
+         }
+
+         .now {
+            position: relative;
+            right: 40px;
+         }
+
+         .today {
+            position: relative;
+            right: 45px;
+         }
+
+         .noww {
+            position: absolute;
+            bottom: -88px;
+            left: -1px;
+         }
+
+         .footer {
+            display: block;
+            margin-top: 126px;
+           
+
+         }
+
+         .form-popup {
+            position: absolute;
+            left: 1px;
+            top: 10px;
+            position: fixed;
+         }
+
+          .signin3, .signin4, .agree, .account, .logninnn {
+            position: relative;
+            right:45px;
+         }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="firstchild">
+            <div class="mini1">
+                <div class="milo"><img class="twiiterimg" src="../Twitter/svgexport-2.png"></div>
+            </div>
+        </div>
+       
+        <div class="secondchild">
+            <img class="smalltwitter" src="../Twitter/svgexport-2.png">
+            
+            <div class="happeningnow">
+                <span class="now">Happenin<span class="g">g</span> <span class="noww">now</span></span>
+            </div>
+            
+            <div class="jointoday">
+                <span class="today">Join today.</span>
+            </div>
+            
+            <div class="signin">
+
+                    <button class="open-button" onclick="openForm()"><P class="insperson"><img class="picsbox" src="../Twitter/princegeorge.jpg">Sign in as Prince George <br><span class="person">princegeorge455@gmail.com</span><img class="search" src="../Twitter/search.png"></P></button>
+
+                    <div class="form-popup" id="myForm">
+                        <form action="/action_page.php" class="form-container">
+                            
+
+                           <label for="email"><b></b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit" class="btn"> </button>
+                            <button type="button" class="btn cancel" onclick="closeForm()"></button>
+                        </form>
+                    </div>
+               
+            </div>
+
+            <div class="signin2">
+                <button class="open-buttonn" onclick="openFormn()"><img src="../Twitter/svgexport-2 (1).png"><span class="AppleP">  Sign up with Apple</span></button>
+
+                <div class="form-popupn" id="myFormn">
+                <form action="/action_page.php" class="form-containern">
+                    <h1>Login</h1>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" class="btnn">Login</button>
+                    <button type="button" class="btnn cancel" onclick="closeForm()">Close</button>
+                </form>
+                </div>
+            </div>
+
+            <div class="signin3">
+              <div class="longline"><p class="or">or</p></div>
+            </div>
+            
+            <div class="signin4">
+                <!--<a href="#">
+                    <span class="Account">Create account</span>
+                </a>-->
+
+                <button class="open-buttonmm" onclick="openForm()"><span class="Creating">Create account</span></button>
+
+                <div class="form-popupmm" id="myFormmm">
+                <form action="/action_page.php" class="form-containermm">
+                    <h1>Login</h1>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" class="btnmm">Login</button>
+                    <button type="button" class="btnmm cancel" onclick="closeForm()">Close</button>
+                </form>
+                </div>
+            </div>
+            <p class="agree">By signing up, you agree to the <span class="termservice">Terms of Service</span> and <span class="termservice">Privacy <br>Policy</span class="termservice">, including <span class="termservice">Cookie Use.</span></p>
+
+            <h2 class="account">Already have an account?</h2>
+            <button type="button" class="logninnn" onclick="signin()"><span class="singnhere"><a class="none" href="#" style="text-decoration: none;">Sign in</a></span></button>
+        </div>
+       
+    </div>
+    
+    
+    <footer class="footer">
+        <span><a class="Adsinfo" href="#"><span>About</span>
+            <span class="adsinforma1">Download the X app</span>
+            <span class="adsinforma2">Help Center</span>
+            <span class="adsinforma3">Terms of Service</span>
+            <span class="adsinforma4">Privacy Policy</span>
+            <span class="adsinforma5">Cookie Policy</span>
+            <span class="adsinforma6">Accessibility</span>
+            <span class="adsinforma7">Ads info</span>
+            <span class="adsinforma8">Blog</span>
+            <span class="adsinforma9">Careers</span>
+            <span class="adsinforma10">Brand Resources</span>
+           <span class="adsinforma12">Advertising</span>
+            <span class="adsinforma13">Marketing</span>
+            <span class="adsinforma14">X for Business</span>
+           <br> <span class="adsinforma15">Developers</span>
+            <span class="adsinforma16">Directory</span>
+            <span class="adsinforma17">Settings</span>
+           <span class="adsinforma18"> © 2024 X Corp.
+        </span></a>
+    </footer>
+
+        <script>
+            function openForm() {
+            document.getElementById("myForm").style.display = "block";
+            }
+
+            function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+            }
+
+            
+           // function openFormn() {
+           // document.getElementById("myFormn").style.display = "block";
+            
+
+           // function closeForm() {
+           // document.getElementById("myFormn").style.display = "none";
+            
+           
+
+            function openFormn() {
+            document.getElementById("myFormmm").style.display = "block";
+            }
+
+            function closeForm() {
+            document.getElementById("myFormmm").style.display = "none";
+            }
+           
+           
+           </script>
+
+            
+</body>
+</html>
